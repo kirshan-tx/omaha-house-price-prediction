@@ -23,3 +23,6 @@ conda install -c conda-forge streamlit
 2. EDA
 3. Outlier Detection
 4. Model Selection
+
+<img src="map/counts_map.PNG" height="350">
+<img src="web_app/web_app.PNG" height="350">
