@@ -1,5 +1,5 @@
 # Omaha House Price Prediction
-Building a model to predict house prices in Omaha, NE using data scraped from [Realtor.com](https://www.realtor.com/).
+Building a web app to predict house prices in Omaha, NE using model trained with data scraped from [Realtor.com](https://www.realtor.com/).
 
 ## Data 
 Data collected using realtor-scraper python script in the scraper folder; for single-family homes, condos, townhomes and multi-family homes (all existing homes and not foreclosures) listed on Realtor.com on July 2021.
@@ -28,7 +28,4 @@ conda install -c conda-forge streamlit
 
 ## Conclusion
 Choropleth map of house listing in Omaha by ZIP Code
-<img src="map/counts_map.PNG" height="400">
 
-Using hyperparameterized Linear Regression I got a score of 76% and I used that model for the web app. 
-<img src="web_app/web_app.PNG" height="400">
