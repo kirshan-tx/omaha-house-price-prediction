@@ -1,8 +1,10 @@
 # Omaha House Price Prediction
-Building a web app to predict house prices in Omaha, NE using model trained with data scraped from [Realtor.com](https://www.realtor.com/).
+Building a web app to predict house prices in Omaha, NE using model trained with data scraped from Realtor.com.
+
+Web app link could be found [here](https://share.streamlit.io/kirshan-tx/omaha-house-price-prediction/main/omaha_house_app.py)
 
 ## Data 
-Data collected using realtor-scraper python script in the scraper folder; for single-family homes, condos, townhomes and multi-family homes (all existing homes and not foreclosures) listed on Realtor.com on July 2021.
+Data collected using realtor-scraper python script in the scraper folder; for single-family homes, condos, townhomes and multi-family homes (all existing homes and not foreclosures) listed on July 2021.
 
 ## Packages used
 - **Beautiful Soup** is a python package for parsing HTML and XML documents.
@@ -25,7 +27,3 @@ conda install -c conda-forge streamlit
 4. Outlier Detection
 5. Model Selection
 6. Deployment
-
-## Conclusion
-Choropleth map of house listing in Omaha by ZIP Code
-
