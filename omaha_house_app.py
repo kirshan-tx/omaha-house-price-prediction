@@ -55,6 +55,7 @@ st.write("## Predicted price:", prediction)
 st.write('---')
 
 #load map html
+st.write('Choropleth Map')
 with open('map/counts_map.html', 'r') as f:
         page = f.read()
         components.html(page, width=700,height=500)
